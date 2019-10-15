@@ -1,0 +1,250 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body main{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+figure{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header bar */
+.fixed-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #0f753d;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+
+}
+
+
+.main-menu a{
+    color: white;
+    font-size: 34px;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+}
+.social-menu a{
+    float: right;
+    padding: 10px;
+}
+
+/* Hero img section */
+.hero{
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Sprite manifesto section*/
+
+.blurb{
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    background-color: black;
+    font-size: 34px;
+    padding-top: 30px;
+   
+ 
+}
+.blurb h1{
+    font-size: 74px;
+    animation-name: colortext;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+.blurb p span{
+    color:  #39b143;
+}
+.mani-message{
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+@keyframes colortext{
+    from{color: white;}
+    to{color: #39b143;}
+
+}
+
+.strike{
+    text-decoration: line-through yellow solid;
+    
+}
+.thirst-banner{
+   margin: 0;
+    
+}
+
+/* media section */
+
+.media{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+    
+}
+.media p{
+    font-family: 'righteous', cursive;
+    
+}
+.media h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'righteous', cursive;
+    letter-spacing: 1.5px;
+}
+.handle{
+    font-weight: bold;
+    font-family: 'righteous', cursive;
+    color:  #39b143;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.lemon{ 
+    width: 100%;
+}
+
+/* bottle section */
+.bottle-block {
+    width: 100%;
+    background-color: #39b143;
+    animation-name: bg-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes bg-color{
+    from {background-color: #39b143;}
+    to {background-color: #edf031;}
+}
+
+.bottle-block h1{
+    color: white;
+    font-family: 'righteous', cursive;
+    font-size: 8rem;
+    letter-spacing: 3px;
+    float: right;
+    padding-right: 2rem;
+    
+
+}
+.bottle-block a{
+    color: white;
+    font-family: 'righteous', cursive;
+    font-size: 62px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    float: right;
+    padding-right: 34rem;
+    clear: both;
+    right: 25%;
+  
+}
+/* END bottle section */
+
+/* playlist section */
+.music {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+   }
+.sprite-way{
+       padding-left: 50px;
+   }
+
+.playlist {
+    width: 50%}
+
+.podcast{
+    width: 50%
+}
+
+
+.music p {
+    font-family: 'righteous', cursive;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    color: #39b143
+    
+}
+
+
+.btn {
+    background-color:  #39b143;
+    
+   
+}
+.btn p span{
+    color: white;
+    
+}
+/*END playlist section */
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #39b143;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.social-menu-foot{
+    padding: 10px;
+}
+footer p{
+   color: white;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+    
+}
+
+.contact {
+    color: white;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+    }
+    
+/*END footer section */
+
