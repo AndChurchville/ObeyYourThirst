@@ -1,1 +1,5 @@
-Tech 901 project recreating the sprite homepage with HTML/CSS.
+---
+permalink: /sprite.html
+---
+
+Recreation of the Sprite hompage using HTML/CSS.
